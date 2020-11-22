@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
+
         AbstractFixnumLock bakeryLock = new BakeryLock(5);
 
         List<Thread> threads = new ArrayList<>();
@@ -20,5 +21,7 @@ public class Main {
         for (Thread i : threads){
             i.join();
         }
+        System.out.println("DekkerDemonstration:");
+        new DekkerDemonstration().run();
     }
 }
