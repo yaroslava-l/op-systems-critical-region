@@ -1,5 +1,4 @@
 package spos.lab2.locks;
-
 public class BakeryLockRunnable implements Runnable {
     private AbstractFixnumLock bakeryLock;
 
