@@ -84,4 +84,6 @@ public abstract class AbstractFixnumLock implements FixnumLock{
             registeredThreads.clear();
         }
     }
+
+    public abstract void use();
 }
